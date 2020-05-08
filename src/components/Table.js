@@ -5,9 +5,9 @@ function Table(props) {
     <table>
       <thead>
         <tr>
-          <th>Picture</th>
-          <th>First <button onClick={props.sort}>Sort</button></th>
-          <th>Last</th>
+          <th><button onClick={props.sort}>Sort</button></th>
+          <th>First Name</th>
+          <th>Last Name</th>
           <th>Email</th>
           <th>Phone</th>
         </tr>
